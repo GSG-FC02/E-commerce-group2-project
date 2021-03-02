@@ -1,0 +1,68 @@
+/* color green = #a7c44c */
+/* font-family: Arial*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    color:white;
+    background-image: url(./images/header.jpg); /* This is a background image for both header-nav and showcase section*/
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:cover ;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#b89252  ;
+    opacity: 0.9;
+    padding: 15px ;
+}
+.company-name{
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-nav{
+    width: 45%;
+}
+
+.header-nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-nav-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.header-nav-list a:hover{
+    color:#a7c44c;
+    font-weight: bold;
+}
+/* Media Query style */
+
+@media screen and (max-width : 768px){
+
+    /*  header style*/
+    .header-container{
+        flex-direction: column;
+    }
+    .header-nav{
+        width: 100%;
+    }
+    .company-name{
+        padding-bottom: 10px;
+        margin-left: 0px;}
+    .header-nav-list a {
+        font-size: 15px;
+        }
+    }
