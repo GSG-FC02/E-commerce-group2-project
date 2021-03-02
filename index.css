@@ -327,7 +327,7 @@ hr {
 .clearix {
     clear: both;
 }
- /* Ibrahim ============================================ */
+ /* Ibrahim styled under this line Team section ============================================ */
  .team-images{
     height: 200px;
     margin-top: 20px;
@@ -352,7 +352,6 @@ hr {
 
 @media screen and (max-width : 768px){
 .team-images-container{
-    /* flex-direction: column; */
     flex-wrap: wrap;
 }
 }
