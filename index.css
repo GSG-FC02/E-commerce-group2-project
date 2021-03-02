@@ -177,12 +177,8 @@ hr {
 /* start secrion our services  */
 .services {
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px;
-
+    padding: 0 15px;
+    margin: 50px auto;
 }
 .services h1 {
     margin-bottom: 20px;
@@ -265,3 +261,69 @@ hr {
 } 
 
 /* End secrion our services  */
+
+
+/* Start section projects */
+.projects {
+    text-align: center;
+    padding: 0 15px ;
+    margin: 50px auto;
+    background-color: #f1f1f1;
+}
+.projects h1 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #333;
+    position: relative;
+    padding-top: 30px;
+}
+.projects h1::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 49%;
+    width: 50px;
+    border-bottom: 3px solid #a7c44c;
+}
+.projects img {
+    width: 25%;
+    height: 250px;
+    border-radius: 0 70px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+@media (max-width:767px) {
+    .projects img {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .projects h1::after {
+        left: 42%;
+    }
+}
+@media (min-width:768px){
+    .projects h1::after  {
+        left: 46%;
+    }
+}
+@media (min-width:991px){
+    .projects h1::after  {
+        left: 48%;
+    }
+}
+
+/* End section projects */
+
+
+
+
+
+
+
+
+
+/* general class */
+.clearix {
+    clear: both;
+}
