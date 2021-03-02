@@ -290,7 +290,7 @@ hr {
     width: 25%;
     height: 250px;
     border-radius: 0 70px;
-    margin-left: 3%;
+    margin-left: 40px;
     margin-top: 20px;
 }
 @media (max-width:767px) {
@@ -299,15 +299,17 @@ hr {
         margin: 20px auto;
     }
     .projects h1::after {
-        left: 47%;
-    }
-    .projects img {
-        width: 100%;
+        left: 42%;
     }
 }
 @media (min-width:768px){
     .projects h1::after  {
         left: 46%;
+    }
+}
+@media (min-width:991px){
+    .projects h1::after  {
+        left: 48%;
     }
 }
 
