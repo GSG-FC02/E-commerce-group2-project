@@ -327,3 +327,31 @@ hr {
 .clearix {
     clear: both;
 }
+ /* Ibrahim styled under this line Team section ============================================ */
+ .team-images{
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 60px 0 60px 0;
+}
+.team-images-container{
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-evenly;
+}
+.team-section{
+    background:rgba(167,196,76,0.8);
+    padding: 20px 0 20px 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (max-width : 768px){
+.team-images-container{
+    flex-wrap: wrap;
+}
+}
