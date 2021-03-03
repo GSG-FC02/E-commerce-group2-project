@@ -350,11 +350,11 @@ hr {
   color: #9096a4;
 }
 .divider1 {
-    width: 50px;
-    margin: 15px auto;
-    border: solid 3px white;
-  }
-  
+  width: 50px;
+  margin: 15px auto;
+  border: solid 3px white;
+}
+
 .divider2 {
   width: 50px;
   margin: 15px auto;
@@ -365,6 +365,7 @@ hr {
   text-align: left;
 }
 .contact-info {
+  padding-top: 20px;
   text-align: left;
   padding-left: 50px;
 }
