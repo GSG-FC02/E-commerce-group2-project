@@ -334,12 +334,16 @@ hr {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .contact-us-section {
   background-color: #f6f6f6;
   padding: 20px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 .contact-us-section h4 {
   color: #9096a4;
