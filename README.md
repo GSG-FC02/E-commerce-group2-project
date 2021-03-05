@@ -5,7 +5,7 @@ E-commerce project for group (2)
 Athathy is Furniture online shop for supplying good quality classic home furniture. The website will be coded by HTML and CSS mainly.
 ## Goal
 
-The aim of this project is build a website selling domestic furniture and offering interior design services. The website will contain two pages which are the home page and the about page. 
+The aim of this project is build a website selling domestic furniture and offering interior design services. The website will contain two pages which are the home page and the contact page. 
 ## member of the team
 
 People working in this project are:
