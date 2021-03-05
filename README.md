@@ -19,12 +19,14 @@ The naming of css-classes and id  will be small letter and using (-) to sperate 
 <p class="our-story-content"></p>
 ```
 There are eight tasks. 
-    - Writing a Readme file assigned for Ola.
-    - Header Section assigned for Ola.
-    - Our-story-section assigned for Ola.
-    - Our-services-section assigned for Ahmed.
-    - Projects-section assigned for Ahmed.
-    - the-team-section assigned for Ibrahim.
-    - contact-us-and-footer-section assigned for Ibrahim.
-    - About-page assigned for Abed Al-Rahman.
+- Writing a Readme file assigned for Ola.
+- Header Section assigned for Ola.
+- Our-story-section assigned for Ola.
+- Our-services-section assigned for Ahmed.
+- Projects-section assigned for Ahmed.
+- the-team-section assigned for Ibrahim.
+- contact-us-and-footer-section assigned for Ibrahim and Abed Al-Rahman.
+
+    ## Vist our web site
+    https://gsg-fc02.github.io/E-commerce-group2-project/
 
