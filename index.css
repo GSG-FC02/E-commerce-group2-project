@@ -280,6 +280,12 @@ hr {
   margin: 50px auto 0 auto;
   background-color: rgb(233, 231, 224);
 }
+.projects-images-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
 .projects h1 {
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -297,12 +303,32 @@ hr {
   border-bottom: 5px solid #a7c44c;
   border-radius: 3px;
 }
-.projects img {
+.projects-images{
   width: 25%;
-  height: 250px;
-  border-radius: 0 70px;
+  position: relative;
   margin-left: 40px;
   margin-top: 20px;
+}
+.t{
+  .t{
+    position: absolute;
+    top: 35px;
+    left: -35px;
+    background-color:transparent  ;
+    color: white;
+    font-size: 24px;
+    transform: rotate(-45deg);
+    border-bottom: 30px solid #f00;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      height: 0;
+      width: 170px;
+  }}
+.projects img {
+  width: 100%;
+  height: 250px;
+  border-radius: 0 70px;
+  
 }
 @media (max-width: 767px) {
   .projects img {
