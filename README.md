@@ -25,6 +25,8 @@ There are eight tasks.
     - Our-services-section assigned for Ahmed.
     - Projects-section assigned for Ahmed.
     - the-team-section assigned for Ibrahim.
-    - contact-us-and-footer-section assigned for Ibrahim.
-    - About-page assigned for Abed Al-Rahman.
+    - contact-us-and-footer-section assigned for Ibrahim and Abed Al-Rahman.
+
+    ## Vist our web site
+    https://gsg-fc02.github.io/E-commerce-group2-project/
 
